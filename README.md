@@ -17,18 +17,26 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 
 #### Create a new user repository from this template
 
-Press the "Use this template" button above to create a new repository to store your user configuration.
+Press the "generated from AstroNvim/template" and then "Use this template" button above to create a new repository to store your user configuration.
 
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
+You can also just clone that repository directly if you do not want to track your user configuration in GitHub.
+Or use this repository as your config.
 
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/Abhi-Survase/AstroNvim_MyConfig.git ~/.config/nvim
 ```
 
 #### Start Neovim
 
 ```shell
 nvim
+```
+
+#### Update AstroNvim (inside nvim)
+
+```shell
+:AstroUpdate
+<leader>pa
 ```
